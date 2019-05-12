@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.content {
+  margin: 10px auto;
+  width: 400px;
+}
+
+h1 {
+  font-size: 200%;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+section {
+  background: grey;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 5px 15px;
+  border-radius: 3px;
+  text-align: center;
+  height: 225px;
+}
+
+h2 {
+  font-family: 'Montserrat';
+}
+
+.prompt {
+  font-family: 'Montserrat';
+}
+
+button {
+  background: grey;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.message {
+  font-family: 'Montserrat';
+  color: purple;
+}
+
+
+@media screen and (max-width: 900px) {
+  section {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    width: 90%;
+  }
+}
